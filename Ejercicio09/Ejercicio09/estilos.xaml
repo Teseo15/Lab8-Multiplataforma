@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09.estilos">
+    <ContentPage.Resources>
+        <StyleSheet Source="/Styles.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label  x:Name="title"  Text="Aplicando Estilos CSS"
+               
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label  x:Name="nombre"  Text="Alumno: Brayan Blas"  HorizontalOptions="CenterAndExpand"/>
+            <Entry x:Name="entry" Placeholder="Gmail" />
+            <Entry x:Name="entry1"  Placeholder="Mensaje" />
+            <Button Text="Ingresar"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
